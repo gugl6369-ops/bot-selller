@@ -1,0 +1,23 @@
+{
+  "name": "bot-seller",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.6.0"
+  },
+  "scripts": {
+    "dev": "node --experimental-strip-types src/index.ts",
+    "start": "node --experimental-strip-types src/index.ts",
+    "check:types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "grammy": "^1.46.0",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.23.1",
+    "typescript": "^7.0.2"
+  }
+}
